@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="thanks/thanks.css">
+    <title>Спасибо за заказ!</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="apple-mobile-web-app-title" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135044420-14"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag () {
+            dataLayer.push( arguments );
+        }
+
+        gtag( 'js', new Date() );
+
+        gtag( 'config', 'UA-135044420-14' );
+    </script>
+
+</head>
+<body>
+<div class="wrap">
+    <div class="blink"></div>
+    <div class="step1 step2">
+        <h1 class="step1__title">Успех!</h1>
+        <h2 class="step1__subtitle">Ваш заказ принят. Спасибо!</h2>
+    </div>
+</div>
+<img id="pixel" height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=&ev=Lead&noscript=1"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.1/cookies.min.js"
+        integrity="sha256-A0IFiIp8mIzwj7uUOqpdJC4BY8zUEAtfs/KXcSoe25c=" crossorigin="anonymous"></script>
+
+<script>
+    $( function () {
+        $( 'img#pixel' ).attr( 'src', 'https://www.facebook.com/tr?id=' + Cookies.get( 'pixel' ) + '&ev=Lead&noscript=1' );
+    } )
+</script>
+</body>
+</html>

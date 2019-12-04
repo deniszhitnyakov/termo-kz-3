@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mega-collection.ru	TRUE	/	FALSE	1999999999	a1501hash	c22de42f9c41effbcb3ba8dbd11d903d
+mega-collection.ru	TRUE	/	FALSE	1999999999	a1501fhash	gentle1sh
+

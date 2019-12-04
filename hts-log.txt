@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Wed, 04 Dec 2019 10:50:45 at https://mega-collection.ru/gentle1sh/
+(httrack https://mega-collection.ru/gentle1sh/ -F "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0" -C0 -N1004 -n -I0 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:51:58	Warning: 	Retry after error -4 (No data (connection closed)) at link mega-collection.ru/js/vendors/inputmask/jquery.mask.js (from https://mega-collection.ru/gentle1sh/)
+10:51:58	Warning: 	Retry after error -4 (No data (connection closed)) at link mega-collection.ru/js/vendors/intlTelInput/js/intlTelInput.js (from https://mega-collection.ru/gentle1sh/)
+10:52:03	Warning: 	Retry after error -4 (No data (connection closed)) at link mega-collection.ru/js/vendors/validinputs.js?version=28 (from https://mega-collection.ru/gentle1sh/)
+10:52:06	Warning: 	Retry after error -4 (No data (connection closed)) at link mega-collection.ru/css/custom-styless.min.css (from https://mega-collection.ru/gentle1sh/)
+10:52:07	Error: 	"Not Found" (404) at link funvezun.ru/fur-car/1/css/owl.video.play.png (from mega-collection.ru/gentle1sh/files/fur_car_1/css/owl.carousel.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 34 seconds : 56 links scanned, 49 files written (1397673 bytes overall) [1289149 bytes received at 13714 bytes/sec], 179334 bytes transferred using HTTP compression in 8 files, ratio 29%, 4.6 requests per connection
+(1 errors, 4 warnings, 0 messages)
